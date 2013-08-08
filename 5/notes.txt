@@ -1,0 +1,13 @@
+created directory for testing some classes… 
+
+
+* see foo.rb file to see how you can communicate things between each other 
+
+
+
+$: << '.'
+require 'laptop'
+
+
+require_relative 'file'  this
+

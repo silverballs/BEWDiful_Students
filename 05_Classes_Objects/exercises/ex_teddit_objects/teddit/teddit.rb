@@ -35,9 +35,14 @@ def add_manual_stories
   StoryBoard.add_story(Story.new(title, category))
 end
 
+
+
+
 def show_story_board
-  StoryBoard.stories.each do |story| #StoryBorad.stories returns an array of stories
+
+  StoryBoard.stories.each do |story| #StoryBoard.stories returns an array of stories
     show_message story 
+
   end
 end
 

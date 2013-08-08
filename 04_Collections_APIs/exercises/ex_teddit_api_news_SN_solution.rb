@@ -23,7 +23,8 @@ end
 
 def calculate_upvotes(story)
   story[:upvotes] = 1
-
+# this is going to increase the upvotes on words that even have cat in the middle of them.  how
+# can we make that work better?
   if story[:title].downcase.include? 'cat'
     story[:upvotes] *= 5
   elsif story[:title].downcase.include? 'bacon'
@@ -41,6 +42,8 @@ def show_all_stories(stories)
   end
 end
 
+
+
 def get_from_mashable
   res = JSON.load(RestClient.get('http://mashable.com/stories.json'))
   res["hot"].map do |story|
@@ -56,7 +59,7 @@ def get_from_digg
   res["data"]["feed"].map do |story|
     s = {title: story["content"]["title"], category: story["content"]["tags"].map{|s| s["display"]}.join(', ')}
     calculate_upvotes s
-    show_new_story_notification s
+    show_new_story_notification 
     s
   end
 end
