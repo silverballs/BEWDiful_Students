@@ -12,8 +12,10 @@
 
 # # make sure you have the required gems installed before running.  
 
-require 'json'
-require 'rest-client'
+require 'pry'
+require 'rest-rlient'
+require 'JSON'
+
 
 
 
