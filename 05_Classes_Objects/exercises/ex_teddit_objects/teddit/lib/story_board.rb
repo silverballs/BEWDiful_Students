@@ -1,4 +1,6 @@
+require_relative 'story'
 class StoryBoard
+<<<<<<< HEAD
 	attr_reader :title, :category
 
 
@@ -16,3 +18,16 @@ def initialize(title, category)
  stories = "Story: #{story.title}, Category: #{story.category}"
 
 end
+=======
+	@@stories = []
+
+	def self.add_story(story)
+		story.upvote if story.to_s.include?("cat")
+		@@stories << story
+	end
+
+	def self.stories
+		@@stories
+	end
+end
+>>>>>>> upstream/master
