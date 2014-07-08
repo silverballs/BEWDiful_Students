@@ -1,0 +1,35 @@
+﻿
+
+FINAL PROJECT PROPOSAL V1
+
+HobokenDeals.com
+
+
+This is a rough proposal for the purpose of fulfilling the BEWD requirements and will be iterated upon as research and feasibility is assessed.  
+
+Background
+	Hoboken NJ is jam packed with restaurants and bars.  There is always somewhere to get a deal and maximize a buck, but no effective source to find out where and what.  
+
+Objective
+	The objective of HobokenDeals will be to specifically focus on food and drink deals within the Hoboken community.  It won't deviate into a million other categories like many of the others do and leave users confused.  It will have methodologies in place that will inevitably keep the data relevant, current, and able to expand within the food and drink space.
+
+Website
+	I am still unsure about the layout of the website.  I will most likely incorporate google maps and think about some other social media api's to use as the site gets built out.  
+
+Registration
+	This has been a challenge to figure out where I will have a user register for the site.  For BEWD
+purposes, I will require a user to register in order to use the site but not sure how I will do this beyond the purpose of fulfilling a user registration requirement for the final project.  
+
+Some questions I am running through are:
+
+If a user needs to register to use the site, how likely are they to actually use it?
+If they need to register to post, how likely are they to post?  
+	If they do have to register to post, chances are the content is good. 
+Should a user be required to validate or post content?
+	Maybe a user should have to validate or post a new “deal” once for every ten site uses.
+	How will this impact the user base and site content quality?
+
+Misc
+  There are many additional things I am unsure about at the moment but think would be cool to incorporate.  Should the site suggest two people be friends because they share a lot of the same interests of food venues and deals? 
+
+.  

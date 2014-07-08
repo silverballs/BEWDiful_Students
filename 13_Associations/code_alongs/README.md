@@ -1,5 +1,5 @@
 ![GeneralAssemb.ly](http://studio.generalassemb.ly/GA_Slide_Assets/Code_along_icon_md.png)
-
+http://studio.generalassemb.ly/
 
 ## Twitter Associations  
 ####Time: 40 min
